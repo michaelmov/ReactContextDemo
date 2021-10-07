@@ -23,7 +23,7 @@ export const ToDoList = () => {
           type="text"
           name="todoInput"
           id="todoInput"
-          placeholder="Type here..."
+          placeholder="Type here.."
           value={newItem}
           onChange={(e) => setNewItem(e.target.value)}
         />
